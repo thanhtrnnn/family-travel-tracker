@@ -57,11 +57,11 @@ Before running this application, make sure you have the following installed:
      DB_PORT=5432
      PORT=6969
      ```
+     ```
      database: "world",
      password: "your_password",
      port: 5432,
-   });
-   ```
+      ```
 
 ## Database Schema
 
@@ -138,8 +138,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## TODO
 
-- [ ] Validate existing users before adding a new one
-- [ ] Copy validation logic from individual travel tracker to family travel tracker
+- [x] Validate existing users before adding a new one
+- [x] Copy validation logic from individual travel tracker to family travel tracker
 - [ ] Add delete user functionality
 - [ ] Add country statistics and analytics
 - [ ] Implement user authentication
